@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Snake.Tutorial">
+  <grid id="27dc6" binding="panel3" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="732" height="493"/>
+    </constraints>
+    <properties>
+      <background color="-6703356"/>
+      <font name="Arial Black" size="24" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f3520" class="javax.swing.JButton" binding="goBackButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1848819"/>
+          <focusable value="false"/>
+          <font name="Chiller" size="20" style="1"/>
+          <text value="Go back"/>
+        </properties>
+      </component>
+      <component id="8c244" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Chiller" size="28" style="1"/>
+          <text value="To move around use "/>
+        </properties>
+      </component>
+      <component id="5f6b9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Chiller" size="28" style="1"/>
+          <text value="If you want to save your score &#10;set your nickname in Settings"/>
+        </properties>
+      </component>
+      <component id="87b7a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Chiller" size="72" style="1"/>
+          <text value="TUTORIAL"/>
+        </properties>
+      </component>
+      <vspacer id="82c1d">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="726d9">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="2c44e">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="890b2">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ba408" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="wasd1.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d42c2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Chiller" size="28" style="1"/>
+          <text value="You can change speed of snake using slider in Settings"/>
+        </properties>
+      </component>
+      <component id="4a174" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Chiller" size="28" style="1"/>
+          <text value="To pause game pres space"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

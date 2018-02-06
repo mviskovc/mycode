@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Snake.Menu">
+  <grid id="27dc6" binding="panel2" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="895" height="568"/>
+    </constraints>
+    <properties>
+      <background color="-6703356"/>
+      <enabled value="false"/>
+      <focusable value="false"/>
+      <foreground color="-6703356"/>
+    </properties>
+    <border type="none">
+      <title-color color="-6703356"/>
+    </border>
+    <children>
+      <component id="af3a0" class="javax.swing.JButton" binding="settingsButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1848819"/>
+          <focusable value="false"/>
+          <font name="Chiller" size="20" style="1"/>
+          <text value="Settings"/>
+        </properties>
+      </component>
+      <component id="2122e" class="javax.swing.JButton" binding="startButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1848819"/>
+          <enabled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="false"/>
+          <font name="Chiller" size="20" style="1"/>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="244c1" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1848819"/>
+          <focusable value="false"/>
+          <font name="Chiller" size="20" style="1"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="1d5e4" class="javax.swing.JButton" binding="tutorialButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1848819"/>
+          <focusable value="false"/>
+          <font name="Chiller" size="20" style="1"/>
+          <text value="Tutorial"/>
+        </properties>
+      </component>
+      <component id="aa612" class="javax.swing.JButton" binding="highscoreButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1848819"/>
+          <focusable value="false"/>
+          <font name="Chiller" size="20" style="1"/>
+          <text value="Highscore"/>
+        </properties>
+      </component>
+      <component id="8231b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c1a49" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="5" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e9d6d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="zmija2.1.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e3c5f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="zmija2.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8848c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="jabuka.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5674d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="10"/>
+          <icon value="title.png"/>
+          <text value=""/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <hspacer id="28f5e">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
