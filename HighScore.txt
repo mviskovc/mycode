@@ -1,0 +1,4 @@
+
+Mateo,170
+Mikaela,120
+Guest,80
