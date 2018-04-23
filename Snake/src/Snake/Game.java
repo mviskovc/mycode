@@ -11,7 +11,7 @@ import java.awt.event.KeyListener;
 import java.util.Random;
 
 /**
- * @author Mateo Višković , Mikaela Radin-Mačukat
+ * @author Mateo Višković
  */
 
 
